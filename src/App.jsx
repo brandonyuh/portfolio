@@ -52,9 +52,9 @@ function App() {
       </h2>
       <h2>
         {filteredSkills.length !== 0 ? "Projects with: " : ""}
-        {filteredSkills.map((skill, index) => {
+        {filteredSkills.map((skill) => {
           return (
-            <span key={index}>
+            <span key={skill}>
               <span className="skill__item">"{skill}"</span>,{" "}
             </span>
           );
