@@ -1,18 +1,86 @@
 [
   {
     "name": "Better Bus Maps",
-    "description": "Better Bus Maps shows bus route information on a map in a clearer way for the city of Vancouver",
+    "description": "Better Bus Maps shows bus route information on a map in a clearer way for the city of Vancouver. It also shows the bus stops and the buses that are coming to the stop. It also shows the bus stops near your location.",
     "link": "https://brandonyuh.me/BetterBusMaps/",
     "image": "https://brandonyuh.me/portfolio/bbm.png",
     "github": "https://github.com/brandonyuh/better-bus-maps",
-    "skills": ["ReactJS", "NodeJS", "HTML", "CSS", "JavaScript", "SASS", "Git", "GitHub", "Google Maps API", "Geolocation data"]
+    "skills": ["ReactJS", "NodeJS", "HTML", "CSS", "JavaScript", "SASS", "Git", "GitHub", "Google Maps API", "Geolocation data", "Axios", "Postman"]
   },
   {
     "name": "Random Noun Translator",
-    "description": "Generates random nouns and translates them into different languages",
+    "description": "Generates random nouns and translates them into different languages. There are toggles for the languages.",
     "link": "https://brandonyuh.me/RandomTranslate/",
-    "image": "https://brandonyuh.me/portfolio/randomtranslate.png",
+    "image": "https://brandonyuh.me/portfolio/noun.png",
     "github": "https://github.com/brandonyuh/random-noun-translate",
-    "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "SASS", "Git", "GitHub", "Google Translate API"]
+    "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "SASS", "Git", "GitHub", "Google Translate API", "Axios", "Postman"]
+  },
+  {
+    "name": "Weather Forecast",
+    "description": "Shows both the hourly forecast and the daily forecast for the next 7 days for Vancouver, Canada. ",
+    "link": "https://brandonyuh.me/VancouverWeather/",
+    "image": "https://brandonyuh.me/portfolio/weather.png",
+    "github": "https://github.com/brandonyuh/weather-forecast",
+    "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "SASS", "Git", "GitHub", "WeatherBit API", "Axios", "Postman"]
+  },
+  {
+    "name": "Macrobites",
+    "description": "A website to automatically calculate how much of each food to eat based on dietary needs. It also has a food database to search for foods and add them to your meal plan.",
+    "link": "http://brandonyuh.me/macrobites/",
+    "image": "https://brandonyuh.me/index/macrobites.PNG",
+    "skills": ["PHP", "JavaScript", "Jquery", "Netbeans", "AdoDB", "mySQL", "CSS", "Bootstrap", "HTML"]
+  },
+  {
+    "name": "Pinveno",
+    "description": "An Android app to track expiring groceries. It also has a barcode scanner to add items to the list. It is available on the Google Play Store.",
+    "link": "https://play.google.com/store/apps/details?id=com.pinveno.pinveno",
+    "image": "https://brandonyuh.me/index/pinveno.PNG",
+    "skills": ["Android Studio", "Java", "mySQL", "Vector Graphics", "XML", "Google Play Store"]
+  },
+  {
+    "name": "Global Game Jam",
+    "description": "I help organize a 48 hour game jam every January from 2012 - present. I am in charge of finding over 50 volunteers and organizing them over this period. I also contact companies to sponsor the event and find a venue for the event. I also help with the setup and teardown of the event.",
+    "link": "https://ggjvancouver.ca/",
+    "image": "http://brandonyuh.me/assets/ggj.png",
+    "skills": ["Event Planning", "Volunteer Management", "Sponsorship", "Venue Management"]
+  },
+  {
+    "name": "UBC Sustainability Scavenger Hunt",
+    "description": "A mobile website game for helping students learn about sustainability around UBC. It was made for the UBC Sustainability Office.",
+    "image": "http://brandonyuh.me/assets/scavenger.png",
+    "skills": ["PHP", "JavaScript", "Jquery", "Netbeans", "AdoDB", "mySQL", "CSS", "Bootstrap", "HTML", "Google Maps API"]
+  },
+  {
+    "name": "Tako Tower",
+    "description": "An endless stacking game. Made with GameMaker Studio. A collaboration with Carmen Chow. It is available on the Google Play Store.",
+    "link": "https://www.youtube.com/watch?v=ud7u2OFJigs",
+    "image": "http://brandonyuh.me/assets/tako.png",
+    "skills": ["GameMaker Studio", "Google Play Store"]
+  },
+  {
+    "name": "Canadian Journal of Communication",
+    "description": "Utilizing Phonegap, designed and created Android and Windows Phone versions of the Canadian Journal of Communication. Developed for Simon Frasier University.",
+    "image": "http://brandonyuh.me/assets/cjc.png",
+    "skills": ["Phonegap", "Android", "JQuery", "HTML", "CSS", "JavaScript", "Google Play Store", "Eclipse"]
+  },
+  {
+    "name": "BlackBerry",
+    "description": "Developer and Quality Assurance.",
+    "link": "https://www.blackberry.com/us/en",
+    "image": "http://brandonyuh.me/assets/bb.png",
+    "skills": ["Java", "Perforce", "Eclipse", "BlackBerry API"]
+  },
+  {
+    "name": "TELUS",
+    "description": "Developer and Quality Assurance.",
+    "link": "https://www.telus.com/en",
+    "image": "http://brandonyuh.me/assets/telus.png",
+    "skills": ["Java", "JSP", "Axure", "HTML", "CSS", "JavaScript", "Eclipse", "Subversion", "Mercurial"]
+  },
+  {
+    "name": "TechTrek Summer Camp Leader",
+    "description": "Acted as one of several computer camp leaders for 30 high school students. Created lesson plans for Java with Greenfoot and App Inventor for Android. Aided and taught students programming in a computer lab at UBC. Taught robotics using Vex Robotics Kits and programming of the robots using Easy-C.",
+    "image": "http://brandonyuh.me/assets/techtrek.png",
+    "skills": ["Teaching", "Java Greenfoot", "Android App Inventor", "Vex Robotics", "PHP", "MySQL"]
   }
 ]
