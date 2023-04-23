@@ -19,6 +19,12 @@ function App() {
       <div>
         <a href={"tel:".concat(atob(encPhone))}>Phone: {atob(encPhone)}</a>
       </div>
+      <div>
+        <a href="https://www.linkedin.com/in/brandonyuh/">LinkedIn</a>
+      </div>
+      <div>
+        <a href="https://github.com/brandonyuh">GitHub</a>
+      </div>
       <div>Canadian Citizen</div>
       <h2>
         TechStack = <span className="bracket">[</span>
