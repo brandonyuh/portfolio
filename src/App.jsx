@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.scss";
+import ProjectList from "./components/ProjectList/ProjectList";
 
 function App() {
   const encEmail = "YnJhbmRvbnl1aEBnbWFpbC5jb20=";
@@ -7,7 +8,7 @@ function App() {
 
   const [filteredSkills, setFilteredSkills] = useState([]);
 
-  const skills = ["ReactJS", "NodeJS", "ExpressJS", "MySQL", "HTML", "CSS", "JavaScript", "SASS", "Bootstrap", "Git", "GitHub", "Heroku", "Netlify", "VS Code", "Postman", "C#", "Java", "Python", "Unity", "C++", "C", "PHP", "JQuery", "Netbeans", "AdoDB", "Android Studio", "Vector Graphics", "JSP", "Axure", "Eclipse", "Subversion", "Mercurial", "Perforce", "BlackBerry API", "Google Maps API"];
+  const skills = ["ReactJS", "NodeJS", "ExpressJS", "MySQL", "HTML", "CSS", "JavaScript", "SASS", "Bootstrap", "Git", "GitHub", "Heroku", "Netlify", "VS Code", "Postman", "C#", "Java", "Python", "Unity", "C++", "C", "PHP", "JQuery", "Netbeans", "AdoDB", "Android Studio", "Vector Graphics", "JSP", "Axure", "Eclipse", "Subversion", "Mercurial", "Perforce", "BlackBerry API", "Google Maps API", "Geolocation data", "Google Translate API"];
 
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
       <div>
         <a href={"tel:".concat(atob(encPhone))}>Phone: {atob(encPhone)}</a>
       </div>
+      <div>Canadian Citizen</div>
       <h2>
         TechStack = <span className="bracket">[</span>
       </h2>
@@ -50,7 +52,7 @@ function App() {
       <h2>
         <span className="bracket">]</span>
       </h2>
-      <h2>
+      {/* <h2>
         {filteredSkills.length !== 0 ? "Projects with: " : ""}
         {filteredSkills.map((skill) => {
           return (
@@ -59,7 +61,8 @@ function App() {
             </span>
           );
         })}
-      </h2>
+      </h2> */}
+      <ProjectList filteredSkills={filteredSkills} />
     </>
   );
 }

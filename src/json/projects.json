@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Better Bus Maps",
+    "description": "Better Bus Maps shows bus route information on a map in a clearer way for the city of Vancouver",
+    "link": "https://brandonyuh.me/BetterBusMaps/",
+    "image": "https://brandonyuh.me/portfolio/bbm.png",
+    "github": "https://github.com/brandonyuh/better-bus-maps",
+    "skills": ["ReactJS", "NodeJS", "HTML", "CSS", "JavaScript", "SASS", "Git", "GitHub", "Google Maps API", "Geolocation data"]
+  },
+  {
+    "name": "Random Noun Translator",
+    "description": "Generates random nouns and translates them into different languages",
+    "link": "https://brandonyuh.me/RandomTranslate/",
+    "image": "https://brandonyuh.me/portfolio/randomtranslate.png",
+    "github": "https://github.com/brandonyuh/random-noun-translate",
+    "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "SASS", "Git", "GitHub", "Google Translate API"]
+  }
+]
