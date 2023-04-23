@@ -10,6 +10,8 @@ function App() {
 
   const skills = ["ReactJS", "NodeJS", "ExpressJS", "MySQL", "HTML", "CSS", "JavaScript", "SASS", "Bootstrap", "Git", "GitHub", "Heroku", "Netlify", "VS Code", "Postman", "C#", "Java", "Python", "Unity", "C++", "C", "PHP", "JQuery", "Netbeans", "AdoDB", "Android Studio", "Vector Graphics", "JSP", "Axure", "Eclipse", "Subversion", "Mercurial", "Perforce", "BlackBerry API", "Google Maps API", "Geolocation data", "Google Translate API"];
 
+  const interests = ["Public Infrastructure", "Language Learning", "Video Games", "Animation", "Weightlifting", "Fitness", "Bodybuilding", "Nutrition", "Cooking", "Game Development", "Board Games", "Photography", "Social Issues"];
+
   return (
     <>
       <h1>Brandon Yuh</h1>
@@ -63,6 +65,17 @@ function App() {
         })}
       </h2> */}
       <ProjectList filteredSkills={filteredSkills} />
+      <h2>
+        Interests = <span className="bracket">[</span>
+      </h2>
+      <div className="skill__container">
+        {interests.map((interest) => {
+          return <span className="skill__item">{interest}, </span>;
+        })}
+      </div>
+      <h2>
+        <span className="bracket">]</span>
+      </h2>
     </>
   );
 }
