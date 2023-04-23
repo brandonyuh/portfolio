@@ -52,16 +52,6 @@ function App() {
       <h2>
         <span className="bracket">]</span>
       </h2>
-      {/* <h2>
-        {filteredSkills.length !== 0 ? "Projects with: " : ""}
-        {filteredSkills.map((skill) => {
-          return (
-            <span key={skill}>
-              <span className="skill__item">"{skill}"</span>,{" "}
-            </span>
-          );
-        })}
-      </h2> */}
       <ProjectList filteredSkills={filteredSkills} />
       <h2>
         Interests = <span className="bracket">[</span>
