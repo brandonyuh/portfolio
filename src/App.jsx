@@ -1,16 +1,14 @@
 import { useState } from "react";
 import "./App.scss";
 import ProjectList from "./components/ProjectList/ProjectList";
+import skills from "./json/skills.json";
+import interests from "./json/interests.json";
 
 function App() {
   const encEmail = "YnJhbmRvbnl1aEBnbWFpbC5jb20=";
   const encPhone = "MTc3ODcwOTUyMzk=";
 
   const [filteredSkills, setFilteredSkills] = useState([]);
-
-  const skills = ["ReactJS", "NodeJS", "ExpressJS", "MySQL", "HTML", "CSS", "JavaScript", "SASS", "Bootstrap", "Git", "GitHub", "Heroku", "Netlify", "VS Code", "Postman", "C#", "Java", "Python", "Unity", "C++", "C", "PHP", "JQuery", "Netbeans", "AdoDB", "Android Studio", "Vector Graphics", "JSP", "Axure", "Eclipse", "Subversion", "Mercurial", "Perforce", "BlackBerry API", "Google Maps API", "Geolocation data", "Google Translate API"];
-
-  const interests = ["Public Infrastructure", "Language Learning", "Video Games", "Animation", "Weightlifting", "Fitness", "Bodybuilding", "Nutrition", "Cooking", "Game Development", "Board Games", "Photography", "Social Issues"];
 
   return (
     <>
