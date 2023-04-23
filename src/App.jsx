@@ -20,10 +20,10 @@ function App() {
         <a href={"tel:".concat(atob(encPhone))}>Phone: {atob(encPhone)}</a>
       </div>
       <div>
-        <a href="https://www.linkedin.com/in/brandonyuh/">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/brandonyuh/">LinkedIn: https://www.linkedin.com/in/brandonyuh/</a>
       </div>
       <div>
-        <a href="https://github.com/brandonyuh">GitHub</a>
+        <a href="https://github.com/brandonyuh">GitHub: https://github.com/brandonyuh</a>
       </div>
       <div>Canadian Citizen</div>
       <h2>
