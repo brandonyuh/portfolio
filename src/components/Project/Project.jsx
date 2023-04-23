@@ -17,7 +17,9 @@ function Project({ project, filteredSkills, reverse }) {
       {project.name ? <div className="project__name">{project.name}</div> : null}
       {project.link ? (
         <div>
-          <a href={project.link}>Link to Project</a>
+          <a href={project.link} rel="noopener noreferrer" target="_blank">
+            Link to Project
+          </a>
         </div>
       ) : null}
       {project.image ? <img className="project__image" src={project.image} alt={project.name} /> : null}
