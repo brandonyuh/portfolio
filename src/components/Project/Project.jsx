@@ -14,7 +14,7 @@ function Project({ project, filteredSkills, reverse }) {
   }
   return (
     <div className="project__container">
-      {project.name ? <div className="project__name">{project.name}</div> : null}
+      {project.name ? <h3 className="project__name">{project.name}</h3> : null}
       {project.link ? (
         <div>
           <a href={project.link} rel="noopener noreferrer" target="_blank">
