@@ -35,7 +35,7 @@ function App() {
       </h2>
 
       <div className="skill__container">
-        {skills.map((skill) => {
+        {skills.sort().map((skill) => {
           return (
             <span key={skill}>
               <input
