@@ -8,6 +8,12 @@
     "skills": ["ReactJS", "NodeJS", "HTML", "CSS", "JavaScript", "SASS", "Git", "GitHub", "Google Maps API", "Geolocation data", "Axios", "Postman"]
   },
   {
+    "name": "This portfolio site!",
+    "description": "You're looking at it right now! It's a website to showcase my projects and skills.",
+    "github": "https://github.com/brandonyuh/portfolio",
+    "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "SASS", "Git", "GitHub"]
+  },
+  {
     "name": "Random Noun Translator",
     "description": "Generates random nouns and translates them into different languages. There are toggles for the languages.",
     "link": "https://brandonyuh.me/RandomTranslate/",
