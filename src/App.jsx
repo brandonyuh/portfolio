@@ -29,7 +29,7 @@ function App() {
           GitHub: https://github.com/brandonyuh
         </a>
       </div>
-      <div>Canadian Citizen</div>
+      <div>🍁Canadian Citizen</div>
       <h2>
         TechStack = <span className="bracket">[</span>
       </h2>
