@@ -30,6 +30,13 @@
     "skills": ["ReactJS", "TypeScript", "HTML", "CSS", "JavaScript", "SASS", "Git", "GitHub", "WeatherBit API", "Axios", "Postman"]
   },
   {
+    "name": "C# website template with Docker",
+    "description": "A website template for a C# website with Docker. It has a Dockerfile.",
+    "image": "https://brandonyuh.me/portfolio/dockercsharp.png",
+    "github": "https://github.com/brandonyuh/csharp-website-with-docker",
+    "skills": ["C#", "Docker", "Git", "GitHub", "CSS", "JavaScript", "HTML"]
+  },
+  {
     "name": "What's for Dinner?",
     "description": "A website to help you decide what to eat for dinner. It has a list of recipes that you can filter by ingredients. It shows random recipe on page load.",
     "link": "https://brandonyuh.me/ApiRecipes/",
