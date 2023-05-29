@@ -14,6 +14,13 @@
     "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "SASS", "Git", "GitHub"]
   },
   {
+    "name": "Webcam object detection with C# and Emgu",
+    "description": "Uses C# and Computer Vision to detect objects in real-time on a webcam. It uses Emgu to access the webcam and detect objects. It uses a pre-trained model to detect objects. It can detect multiple objects at once. It can also detect objects in images.",
+    "image": "https://brandonyuh.me/portfolio/object.png",
+    "github": "https://github.com/brandonyuh/webcam-detect-objects-csharp-emgu",
+    "skills": ["C#", "Emgu", "Git", "GitHub", "Computer Vision"]
+  },
+  {
     "name": "Random Noun Translator",
     "description": "Generates random nouns and translates them into different languages. There are toggles for the languages.",
     "link": "https://brandonyuh.me/RandomTranslate/",
