@@ -37,7 +37,7 @@ function App() {
       <div className="skill__container">
         {skills.sort().map((skill) => {
           return (
-            <span key={skill}>
+            <span className="skill__group" key={skill}>
               <input
                 type="checkbox"
                 id={skill}
