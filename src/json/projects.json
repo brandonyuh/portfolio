@@ -21,6 +21,12 @@
     "skills": ["C#", "Emgu", "Git", "GitHub", "Computer Vision"]
   },
   {
+    "name": "Computer Vision Fingerprint Recognition",
+    "description": "Trained an image set to recognize fingerprints using Python and yolov5.",
+    "image": "https://brandonyuh.me/portfolio/fingerprint.png",
+    "skills": ["Python", "Computer Vision"]
+  },
+  {
     "name": "Random Noun Translator",
     "description": "Generates random nouns and translates them into different languages. There are toggles for the languages.",
     "link": "https://brandonyuh.me/RandomTranslate/",
