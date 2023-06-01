@@ -5,14 +5,15 @@ import skills from "./json/skills.json";
 import interests from "./json/interests.json";
 
 function App() {
-  const encEmail = "YnJhbmRvbnl1aEBnbWFpbC5jb20=";
+  //const encEmail = "YnJhbmRvbnl1aEBnbWFpbC5jb20=";
+  const encEmail = "YnJlbmt5dWhAZ21haWwuY29t";
   const encPhone = "MTc3ODcwOTUyMzk=";
 
   const [filteredSkills, setFilteredSkills] = useState([]);
 
   return (
     <>
-      <h1>Brandon Yuh</h1>
+      <h1>Bren Yuh</h1>
       <div>
         <a href={"mailto:".concat(atob(encEmail))}>Email: {atob(encEmail)}</a>
       </div>
