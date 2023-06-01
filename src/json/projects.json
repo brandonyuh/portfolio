@@ -1,19 +1,5 @@
 [
   {
-    "name": "Better Bus Maps",
-    "description": "Better Bus Maps shows bus route information on a map in a clearer way for the city of Vancouver. It also shows the bus stops and the buses that are coming to the stop. It also shows the bus stops near your location.",
-    "link": "https://brandonyuh.me/BetterBusMaps/",
-    "image": "https://brandonyuh.me/portfolio/bbm.png",
-    "github": "https://github.com/brandonyuh/better-bus-maps",
-    "skills": ["ReactJS", "NodeJS", "HTML", "CSS", "JavaScript", "SASS", "Git", "GitHub", "Google Maps API", "Geolocation data", "Axios", "Postman", "Vector Graphics"]
-  },
-  {
-    "name": "This portfolio site!",
-    "description": "You're looking at it right now! It's a website to showcase my projects and skills.",
-    "github": "https://github.com/brandonyuh/portfolio",
-    "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "SASS", "Git", "GitHub"]
-  },
-    {
     "name": "Batch object detection with C#, Emgu, and RabbitMQ",
     "description": "Uses C# and Computer Vision to detect objects in a folder of images. It uses Emgu and a pre-trained model to detect objects. It can detect multiple objects at once. It uses RabbitMQ and runs separately as a client and server.",
     "image": "https://brandonyuh.me/portfolio/batchid.png",
@@ -32,6 +18,20 @@
     "description": "Trained an image set to recognize fingerprints using Python and yolov5.",
     "image": "https://brandonyuh.me/portfolio/fingerprint.png",
     "skills": ["Python", "Computer Vision"]
+  },
+  {
+    "name": "Better Bus Maps",
+    "description": "Better Bus Maps shows bus route information on a map in a clearer way for the city of Vancouver. It also shows the bus stops and the buses that are coming to the stop. It also shows the bus stops near your location.",
+    "link": "https://brandonyuh.me/BetterBusMaps/",
+    "image": "https://brandonyuh.me/portfolio/bbm.png",
+    "github": "https://github.com/brandonyuh/better-bus-maps",
+    "skills": ["ReactJS", "NodeJS", "HTML", "CSS", "JavaScript", "SASS", "Git", "GitHub", "Google Maps API", "Geolocation data", "Axios", "Postman", "Vector Graphics"]
+  },
+  {
+    "name": "This portfolio site!",
+    "description": "You're looking at it right now! It's a website to showcase my projects and skills.",
+    "github": "https://github.com/brandonyuh/portfolio",
+    "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "SASS", "Git", "GitHub"]
   },
   {
     "name": "Random Noun Translator",
