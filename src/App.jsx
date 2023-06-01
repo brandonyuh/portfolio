@@ -21,13 +21,13 @@ function App() {
         <a href={"tel:".concat(atob(encPhone))}>Phone: {atob(encPhone)}</a>
       </div>
       <div>
-        <a href="https://www.linkedin.com/in/brandonyuh/" rel="noopener noreferrer" target="_blank">
-          LinkedIn: https://www.linkedin.com/in/brandonyuh/
+        <a href="https://www.linkedin.com/in/brenkyuh" rel="noopener noreferrer" target="_blank">
+          LinkedIn: https://www.linkedin.com/in/brenkyuh/
         </a>
       </div>
       <div>
-        <a href="https://github.com/brandonyuh" rel="noopener noreferrer" target="_blank">
-          GitHub: https://github.com/brandonyuh
+        <a href="https://github.com/brenkyuh" rel="noopener noreferrer" target="_blank">
+          GitHub: https://github.com/brenkyuh
         </a>
       </div>
       <div>🍁Canadian Citizen</div>
