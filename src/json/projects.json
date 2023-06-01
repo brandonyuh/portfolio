@@ -13,6 +13,13 @@
     "github": "https://github.com/brandonyuh/portfolio",
     "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "SASS", "Git", "GitHub"]
   },
+    {
+    "name": "Batch object detection with C#, Emgu, and RabbitMQ",
+    "description": "Uses C# and Computer Vision to detect objects in a folder of images. It uses Emgu and a pre-trained model to detect objects. It can detect multiple objects at once. It uses RabbitMQ and runs separately as a client and server.",
+    "image": "https://brandonyuh.me/portfolio/batchid.png",
+    "github": "https://github.com/brandonyuh/batch-id-objects-rabbitmq-csharp",
+    "skills": ["C#", "Emgu", "Git", "GitHub", "Computer Vision", "RabbitMQ"]
+  },
   {
     "name": "Webcam object detection with C# and Emgu",
     "description": "Uses C# and Computer Vision to detect objects in real-time on a webcam. It uses Emgu to access the webcam and detect objects. It uses a pre-trained model to detect objects. It can detect multiple objects at once. It can also detect objects in images.",
